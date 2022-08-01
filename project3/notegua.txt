@@ -1,0 +1,32 @@
+baju ,hoodie ,kemeja
+
+-product
+id
+nama_product
+size = allsize
+price_product
+gambar_product
+created_at
+update_at
+delete_at
+
+
+-orders
+id
+id_product (FK)
+qty
+total_price
+created_at
+update_at
+delete_at
+
+
+====================================
+buat file setup.env
+export DBusername="root"
+export DBpassword=""
+export DBhost="localhost"
+export DBport=3306
+export DBname="project3"
+export SECRET="h1d3n"
+export SERVERPORT=8080
